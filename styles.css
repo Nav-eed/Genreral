@@ -8,7 +8,7 @@
 .hero__section {
   background: url(images/heroSectionBackground.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   color: white;
   min-height: 60vh;
 }
@@ -518,4 +518,15 @@
   .navigation_container {
     grid-template-columns: 1fr;
   }
+}
+
+.content4 {
+  background-image: url(https://res.cloudinary.com/dpftdhwbu/image/upload/v1668852874/barcelona-real-madrid-miami-icc_fbj45c.jpg);
+  width: 100px;
+  height: 100px;
+}
+.content1 {
+  background-image: url(https://res.cloudinary.com/dpftdhwbu/image/upload/v1668854344/maxresdefault_3_vgfwar.jpg);
+  height: 110px;
+  width: 100px;
 }
