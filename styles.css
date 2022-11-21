@@ -8,6 +8,49 @@ ul#haha {
   list-style: none;
   width: 250px;
 }
+ul#haha li {
+  margin: 8px 0;
+  position: relative;
+  background-color: #2b2b2b;
+  border-radius: 2px;
+  overflow: hidden;
+}
+ul#haha li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: #f0f;
+  transition: 0.5s all ease-in-out;
+}
+ul#haha li:nth-child(1):before {
+  background-color: blue;
+}
+ul#haha li:nth-child(2):before {
+  background-color: yellow;
+}
+ul#haha li:nth-child(3):before {
+  background-color: red;
+}
+ul#haha li:nth-child(4):before {
+  background-color: green;
+}
+ul#haha li:hover:before {
+  border-radius: 0 50px 50px 0;
+  width: 110%;
+}
+ul#haha li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
 .hero__section {
   background: url(images/heroSectionBackground.png);
   background-position: center;
