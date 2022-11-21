@@ -4,7 +4,10 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+ul#haha {
+  list-style: none;
+  width: 250px;
+}
 .hero__section {
   background: url(images/heroSectionBackground.png);
   background-position: center;
@@ -523,10 +526,10 @@
 .content4 {
   background-image: url(https://res.cloudinary.com/dpftdhwbu/image/upload/v1668852874/barcelona-real-madrid-miami-icc_fbj45c.jpg);
   height: 110px;
-  weight: 100px;
+  width: 100px;
 }
 .content1 {
   background-image: url(https://res.cloudinary.com/dpftdhwbu/image/upload/v1668854344/maxresdefault_3_vgfwar.jpg);
   height: 110px;
-  weight: 100px;
+  width: 100px;
 }
