@@ -7,6 +7,9 @@
 ul#haha {
   list-style: none;
   width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 ul#haha li {
   margin: 8px 0;
