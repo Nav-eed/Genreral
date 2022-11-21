@@ -4,11 +4,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.hero__section {
+  background: url(https://res.cloudinary.com/dpftdhwbu/image/upload/v1668848462/pexels-furknsaglam-3131405_exaixf.jpg);
+}
 ul#haha {
   list-style: none;
   width: 250px;
-  display: flex;
-  gap: 100px;
 }
 ul#haha li {
   margin: 8px 0;
