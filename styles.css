@@ -157,8 +157,18 @@ input[type="search"]:focus input[type="search"]:not(placeholder-show) {
   filter: brightness(100%);
 }
 .input_container_location {
-  width: 30%;
-  border-right: 2px solid #e0e0e0;
+  width: 160px;
+  padding: 8px 20px 8px 45px;
+  border: #fff solid 2px;
+  font-size: 18px;
+  border-radius: 25px;
+  background-position: 2% 50%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url("Jakarta.svg");
+  background-color: transparent;
+  transition: 0.5s all ease-in-out;
+  filter: brightness(170%);
 }
 
 @media only screen and (max-width: 600px) {
