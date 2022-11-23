@@ -266,18 +266,25 @@ ul#haha li a {
 
 .card1 {
   background-image: url("https://res.cloudinary.com/dpftdhwbu/image/upload/v1669112823/download_13_f9vtce.jpg");
+
+  cursor: pointer;
 }
 
 .card2 {
   background-image: url("https://res.cloudinary.com/dpftdhwbu/image/upload/v1669112825/download_12_ldttfj.jpg");
+
+  cursor: pointer;
 }
 
 .card3 {
   background-image: url("https://res.cloudinary.com/dpftdhwbu/image/upload/v1669112825/download_3_d2iobd.png");
+  cursor: pointer;
 }
 
 .card4 {
   background-image: url("https://res.cloudinary.com/dpftdhwbu/image/upload/v1669112823/download_4_lvqwx6.png");
+
+  cursor: pointer;
 }
 
 .overlay {
