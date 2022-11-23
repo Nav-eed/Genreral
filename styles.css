@@ -193,7 +193,7 @@ ul#haha li a {
 .we__offer {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
 }
