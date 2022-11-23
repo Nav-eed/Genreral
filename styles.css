@@ -247,11 +247,10 @@ ul#haha li a {
 
 .collections_card_container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 23px;
 }
 
 .collections_card_container .card {
