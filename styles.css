@@ -150,7 +150,7 @@ ul#haha li a {
   background-color: transparent;
   transition: 0.5s all ease-in-out;
   filter: brightness(170%);
-  margin-top: 30vh;
+  margin-top: 60vh;
 }
 input[type="search"]:focus input[type="search"]:not(placeholder-show) {
   width: 350px;
@@ -171,7 +171,7 @@ input[type="search"]:focus input[type="search"]:not(placeholder-show) {
   transition: 0.5s all ease-in-out;
   filter: brightness(170%);
   position: relative;
-  top: 30vh;
+  top: 60vh;
 }
 
 @media only screen and (max-width: 600px) {
