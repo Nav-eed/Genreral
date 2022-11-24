@@ -151,6 +151,7 @@ ul#haha li a {
   transition: 0.5s all ease-in-out;
   filter: brightness(170%);
   margin-top: 60vh;
+  margin-left: 45vh;
 }
 input[type="search"]:focus input[type="search"]:not(placeholder-show) {
   width: 350px;
@@ -172,7 +173,7 @@ input[type="search"]:focus input[type="search"]:not(placeholder-show) {
   filter: brightness(170%);
   position: relative;
   top: 60vh;
-  left: 60vh;
+  left: 45vh;
 }
 
 @media only screen and (max-width: 600px) {
