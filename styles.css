@@ -645,3 +645,5 @@ input[type="search"]:focus input[type="search"]:not(placeholder-show) {
 .n50 {
   cursor: pointer;
 }
+@media only screen and (max-width: 600px) {
+}
